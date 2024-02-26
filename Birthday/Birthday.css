@@ -1,0 +1,46 @@
+#wrapper {
+    margin: 1em auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 1200px;
+    grid-template-columns: repeat(12,1fr);
+    background-color: #ffffff;
+    border: 5px solid #0095ff;
+    padding: 5px;
+    margin-top: 0;
+  }
+
+  header {
+    background-color: #20a9ff;
+    grid-column: span 12;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    text-transform: uppercase;
+  text-align: center;
+  }
+
+
+  iframe {
+    float: left;
+    margin-top: 7px;
+  }
+
+  img {
+    width: 400px;
+    float: right;
+    margin-top: 400px;
+    
+  }
+
+p2 {
+    font-size: medium;
+    text-align: left;
+    text-wrap: 20px;
+}
+
+div {
+    margin-top: 300px;
+    margin-right: 400px;
+}
