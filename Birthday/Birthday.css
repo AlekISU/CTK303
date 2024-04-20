@@ -44,3 +44,7 @@ div {
     margin-top: 300px;
     margin-right: 400px;
 }
+
+h2 {
+    float: right;
+}
