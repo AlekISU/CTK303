@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Login</title>
+    <link href="flickflack.css" rel="stylesheet" type="text/css">
+    <script> 
+    function auth() {
+    var password = document.getElementById("password").value;
+    if(password === "1234"){
+      window.Location.replace("flickflack.html");
+
+    }else {
+      alert("code invalid");
+      return;
+    }
+  }
+    </script>
+</head>
+
+<body>
+
+  <form id="form" action="" method="GET">
+    </div>
+    <div class="form-group">
+      <h3>Login Code</h3>
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" id="password" class="form-control" >
+    </div>
+     <button type="submit" class="btn btn-outline-success btn-lg shadow" onClick="auth()">Submit</button>
+ 
+  </form>
+        
+      
+</body>
+</html>
+<script>
+  function auth() {
+    var password = document.getElementById("password").value;
+
+    if(password === "1234"){
+      window.Location.replace("flickflack.html");
+
+    }else {
+      alert("code invalid");
+      return;
+    }
+  }
+  
+
+</script>
+    
