@@ -1,0 +1,140 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #080808;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Post card */
+.post {
+    background-color: #ffffffab;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+/* User info */
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Post content */
+.post-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Interaction buttons */
+.interaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #20ff50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #119b2f;
+}
+
+/* Input area */
+.input-area {
+    margin-top: 20px;
+    display: flex;
+    direction: column;
+}
+
+.input-area textarea {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+.input-area .post-button {
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .post {
+        padding: 10px;
+    }
+
+    .input-area textarea {
+        height: 60px;
+    }
+}
+header {
+    background-color: #20ff50;
+    grid-column: span 12;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    text-transform: uppercase;
+  text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .ad-container {
+    width: 100%;
+  }
+  .ad {
+    border: 1px solid black;
+    width: 22.2%; /*Adjust as necessary*/
+    margin: .3%;
+    float: right;
+    /*Add min-height or max-height as necessary*/
+  }
+  
+  .ad-container:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+ 
+
+    
