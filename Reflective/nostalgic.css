@@ -1,0 +1,102 @@
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    cursor: url(cursor.png), auto;
+    font-family:Lucida Handwriting, cursive;
+}
+
+a:hover {
+    cursor: url(hover.png), auto;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 1em auto;
+  width: auto;
+  height: auto;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 0px;
+  margin-top: 50px;
+}
+
+
+nav1 li {
+    float: right;
+    margin: 1em;
+    display: block;
+}
+ 
+nav1 li a {
+color: greenyellow;
+text-decoration: none;
+}
+
+nav1 li a:hover {
+    color: aliceblue;
+}
+
+
+
+h1 {
+    color: rgb(255, 115, 0);
+    margin-top: 50px;
+    margin-right: 300px;
+    font-size: 50px;
+    margin-left: 620px;
+}
+
+nav2 {
+    float: left;
+    grid-column: span 4;
+}
+
+nav2 li {
+    margin-left: 100px;
+    margin-top: 30px;
+    display: block;
+}
+
+nav2 li a {
+    text-decoration: none;
+    color: rgb(167, 167, 249);
+}
+nav2 li a:hover {
+    color: aliceblue;
+}
+.text {
+background-color: rgb(171, 241, 169);
+border: 20px solid rgb(171, 241, 169);
+margin-left: 600px;
+border-radius: 20px;
+margin-right: 60px;
+box-shadow: 10px 10px 10px rgb(0, 117, 70);
+}
+
+
+header {
+    background-color: rgb(80, 28, 154);
+    border: 3px solid aqua;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 0px;  
+}
+
+.weblogo {
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+}
+
+h3 {
+    color: plum;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.starslogo {
+    float: left;
+    width: 100px;
+    margin-left: 200px;
+}
